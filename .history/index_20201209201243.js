@@ -5,8 +5,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const app = express();
 
 
-
-
+//client 
 passport.use(new GoogleStrategy());
 
 
